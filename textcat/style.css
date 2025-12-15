@@ -6,8 +6,7 @@
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  color: black;
-  background-color: white;
+  color: #222;
   margin: 0;
   padding: 0;
 }

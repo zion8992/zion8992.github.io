@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Wiki</title>
+  <title>Textcat Messsage Formatting</title>
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
 </head>
@@ -24,11 +24,63 @@
   <main>
     
 <article>
-  <h1>Wiki</h1>
-  <h3>Pages</h3>
-<a href="/wiki/message-formatting/">Message Format</a><br>
-<a href="/wiki/codebase/">Codebase</a><br>
-<a href="">Contributing</a><br>
+  <h1>Textcat Messsage Formatting</h1>
+  <h2>Basic tags</h2>
+<p>Supported on textcat telesto v2.0.1 and above</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bold</td>
+<td><code>**text**</code></td>
+</tr>
+<tr>
+<td>italic</td>
+<td><code>*text*</code></td>
+</tr>
+<tr>
+<td>header 1</td>
+<td><code># text</code></td>
+</tr>
+<tr>
+<td>header 2</td>
+<td><code>## text</code></td>
+</tr>
+<tr>
+<td>header 3</td>
+<td><code>### text</code></td>
+</tr>
+<tr>
+<td>header 4</td>
+<td><code>#### text</code></td>
+</tr>
+<tr>
+<td>newline</td>
+<td><code>$n</code></td>
+</tr>
+<tr>
+<td>image</td>
+<td><code>$img:url</code></td>
+</tr>
+<tr>
+<td>link to website</td>
+<td><code>$web:link</code> (without http or https)</td>
+</tr>
+<tr>
+<td>link to channel</td>
+<td><code>$channel:name</code></td>
+</tr>
+<tr>
+<td>link to command</td>
+<td><code>$command:name</code> (without <code>/</code>)</td>
+</tr>
+</tbody>
+</table>
 
 </article>
 
