@@ -9,16 +9,17 @@
 <body>
   <header>
     <div style="display: flex; align-items: flex-start; gap: 20px;">
-        <img src="/static/official-logo.png" style="height: auto; object-fit: cover; border-radius: 5px;" width="4%">
+        <img src="/static/telesto-logo.png" style="height: auto; object-fit: cover; border-radius: 5px;" width="4%">
         
         <div>
-            <!--<h1 style="margin-top: 0;"><a href="/">Textcat</a></h1>-->
-            <span style='font-size:27px;'><span style='color:#22FF8A;'>T</span><span style='color:#1EE77D;'>e</span><span style='color:#1BCF70;'>x</span><span style='color:#18B763;'>t</span><span style='color:#159F56;'>c</span><span style='color:#128749;'>a</span><span style='color:#0F6F3C;'>t</span></span>  
+            <h1 style="margin-top: 0;"><a href="/">Textcat</a></h1>
+            <!--<span style='font-size:27px;'><span style='color:#22FF8A;'>T</span><span style='color:#1EE77D;'>e</span><span style='color:#1BCF70;'>x</span><span style='color:#18B763;'>t</span><span style='color:#159F56;'>c</span><span style='color:#128749;'>a</span><span style='color:#0F6F3C;'>t</span></span>  
+        -->
           </div>
     </div>
     <br>
     <nav>
-      <a href="/updates/">Updates</a> <a href="/wiki/">Wiki</a> <a href="/client/index.html">Web Client <i class="bi bi-arrow-up-right"></i></a>
+      <a href="/updates/">Updates</a> <a href="/wiki/">Wiki</a></a>
     </nav>
   </header>
   <main>
@@ -37,27 +38,27 @@
 <tbody>
 <tr>
 <td>bold</td>
-<td><code>**text**</code></td>
+<td><code>**&lt;text&gt;**</code></td>
 </tr>
 <tr>
 <td>italic</td>
-<td><code>*text*</code></td>
+<td><code>*&lt;text&gt;*</code></td>
 </tr>
 <tr>
 <td>header 1</td>
-<td><code># text</code></td>
+<td><code>$h1 &lt;text&gt; $</code></td>
 </tr>
 <tr>
 <td>header 2</td>
-<td><code>## text</code></td>
+<td><code>$h2 &lt;text&gt; $</code></td>
 </tr>
 <tr>
 <td>header 3</td>
-<td><code>### text</code></td>
+<td><code>$h3 &lt;text&gt; $</code></td>
 </tr>
 <tr>
 <td>header 4</td>
-<td><code>#### text</code></td>
+<td><code>$h4 &lt;text&gt; $</code></td>
 </tr>
 <tr>
 <td>newline</td>
@@ -65,22 +66,25 @@
 </tr>
 <tr>
 <td>image</td>
-<td><code>$img:url</code></td>
+<td><code>$img:url$</code></td>
 </tr>
 <tr>
 <td>link to website</td>
-<td><code>$web:link</code> (without http or https)</td>
+<td><code>$web:link$</code> (without http or https)</td>
 </tr>
 <tr>
 <td>link to channel</td>
-<td><code>$channel:name</code></td>
+<td><code>$channel:name$</code></td>
 </tr>
 <tr>
 <td>link to command</td>
-<td><code>$command:name</code> (without <code>/</code>)</td>
+<td><code>$command:name$</code> (without <code>/</code>)</td>
 </tr>
 </tbody>
 </table>
+<p>Inspired by markdown...</p>
+<h2>History</h2>
+<p><a href="https://github.com/gitipedras/textcat-telesto-client/issues/9">Textcat Telesto Issue</a></p>
 
 </article>
 
