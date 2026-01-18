@@ -5,7 +5,7 @@
 
 :root {
   --text-color: hsv(288 100% 13.3%);
-  --active: #4f0062;
+  --active: #236b87;
   --bg: #efd1f7;
 }
 
@@ -28,7 +28,7 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 0;
-  background-color: var(--bg);
+  background-color: white;
 }
 
 /* Layout */
