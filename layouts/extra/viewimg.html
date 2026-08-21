@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Viewer</title>
+</head>
+{{.Content}}
+<body>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const imgSrc = params.get('img');
+
+    if (imgSrc) {
+      const img = document.createElement('img');
+      img.src = imgSrc;
+      img.alt = imgSrc;
+      img.style = "width:30%;"
+      document.body.appendChild(img);
+    } else {
+      document.body.textContent = 'Error: No image specified. Use ?img=/path/to/image.png';
+    }
+  </script>
+</body>
+</html>

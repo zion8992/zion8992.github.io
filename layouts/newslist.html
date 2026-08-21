@@ -1,0 +1,19 @@
+{{define "main"}}
+{{.Content}}
+<div style="margin-left:300px;margin-right:300px;">
+    {{.Content}}
+    {{ $posts := where .Site.RegularPages "Section" "cz-news" }}
+    {{ range first 1 ($posts.GroupByDate "2006") }}
+    <h2>{{ .Key }}</h2>
+    <ul>
+        {{ range .Pages.ByDate.Reverse }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    </div>
+</div>
+{{end}}

@@ -1,0 +1,31 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = "zion8992's website"
+
+[params]
+  copyright-year = '2026'
+  subtitle = 'subtitle'
+  description = "title"
+  [params.author]
+    email = 'private@email.address'
+    name = 'zion8992'
+    url = ""
+
+[menu]
+  [[menu.main]]
+    name   = "Home"
+    url    = "/"
+    weight = 1
+    
+  [[menu.main]]
+    name   = "Zonomic"
+    pageRef    = "/pages/zonomic"
+    weight = 2
+
+  [[menu.main]]
+    name   = "Cubyz Newsletter"
+    pageRef    = "/cz-news"
+    weight = 2
+    
+[markup.goldmark.renderer]
+unsafe = true
