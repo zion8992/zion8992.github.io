@@ -1,19 +1,14 @@
 ---
-title: "About Zonomic"
+title: "Zonomic"
 ---
 
-## About Zonomic
+### What is Zonomic anyways?
 
-Zonomic is a group of developers created by zion8992.
+Zonomic is a group of Go developers I want to start one day to work on projects and chill.
 
-## Members
+### So, How can I join?
 
-- zion8992
-
-## Want to join?
-
-You can send a friend request and message to "astr0_steve" on discord.
-
-**Who we am looking for**
-- Developers (prefer Go)
-- Artists
+Well, there are a few requirements to join Zonomic:
+1. Must have a [Matrix](https://matrix.org/) account.
+2. Must know (even just a bit) of [Go](https://go.dev)
+3. Must have [Obsidian](https://obsidian.md) installed.

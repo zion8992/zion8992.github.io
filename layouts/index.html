@@ -2,6 +2,8 @@
 <div style="margin-left:300px;margin-right:300px;">
 {{ .Content }}
 
+<h3>$ <i>ls posts</i></h3>
+
 {{ $posts := where .Site.RegularPages "Section" "posts" }}
 {{ range first 1 ($posts.GroupByDate "2006") }}
   <h2>{{ .Key }}</h2>

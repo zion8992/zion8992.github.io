@@ -10,14 +10,12 @@
   --font-body: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
 
   /* --- Base surfaces --- */
-  --color-bg: #26303e;        /* warm paper/off-white background */
-  --color-surface: ;   /* cards, panels */
-  --color-ink: #96a8bf;       /* near-black text/border */
+  --color-bg: hsl(231 15 18);        
+  --color-surface: hsl(225 27 51);
+  --color-ink: HSL(60 30 96);
 
   /* --- Bold accents --- */
-  --one: #4998ff;
-  --two: #undefined;
-  --three: #96a8bf;
+    --orange: hsl(31 100 71);
 
   /* --- Borders --- */
   --border-width: 3px;
@@ -37,7 +35,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-secondary-faded);
+    background: var(--color-surface);
     height: 60px;
 
     /* margins */
@@ -75,7 +73,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--one);
+    color: var(--orange);
 }
 
 /* FOOTER */
@@ -102,4 +100,16 @@ footer {
 
 a {
     color: var(--one);
+}
+
+code {
+    background-color: var(--color-bg);
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    padding: 0 3px;
+    color: var(--one);
+}
+
+tr, td {
+    border: 1px solid var(--color-ink);
 }
