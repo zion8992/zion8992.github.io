@@ -12,9 +12,11 @@
   /* --- Base surfaces --- */
   --color-bg: hsl(231 15 18);        
   --color-surface: hsl(225 27 51);
-  --color-ink: HSL(60 30 96);
+  --color-ink: hsl(60 0% 87%);
+  --color-ink-faded: hsl(60 0% 80%);
 
-  /* --- Bold accents --- */
+    /* --- Bold accents --- */
+    --red: hsl(0 100 67);
     --orange: hsl(31 100 71);
 
   /* --- Borders --- */
@@ -99,7 +101,7 @@ footer {
 /* HTML ELEMENTS */
 
 a {
-    color: var(--one);
+    color: var(--red);
 }
 
 code {
@@ -107,7 +109,7 @@ code {
     border-radius: 3px;
     font-family: "Courier New", monospace;
     padding: 0 3px;
-    color: var(--one);
+    color: var(--color-ink-faded);
 }
 
 tr, td {
