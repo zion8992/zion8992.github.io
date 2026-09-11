@@ -4,6 +4,10 @@ draft = true
 title = 'Welcome to Multiplayer'
 +++
 
+### read this please!
+
+This is a script for a youtube video. The contents between *(round brackets)* are notes
+
 ### Introduction
 
 https://www.youtube.com/watch?v=9HJ0AHfx7BE
@@ -11,40 +15,29 @@ https://www.youtube.com/watch?v=9HJ0AHfx7BE
 (Did you know that: The "Adwaita Sans Mono" font is great?)
 
 Life is a game.
-a game with two modes:
-- single
-- multiplayer
+A cold, hard and tedious game.
+A game with two modes:
+- Singleplayer
+and
+- Multiplayer
 
-about 98% of the world is playing in the singleplayer and the other 2% are multiplayer
+Almost everyone in this world is playing in singleplayer.
 
-now, we all know what singleplayer mode is:
-- wars
-- massacres
-- tragedy
-- etc...
-- taxes & irs
+Let me explain.
 
-what does multiplayer look like?
-well multiplayer solves:
-- the worlds problems (list them)
-- spoilter alert: the poinless wars
+Singleplayer is playing alone. It's dark, cold and boring. It's selfish and we all know what that does.
 
-**we can work together to make *our* a better place for *our*selves, rather than making *our* world a worser and uglier place for *our*selves**
+Multiplayer is a free new world...
 
 ### multiplayer
 
 #### fishing
 
-how do you?
+Before anything else, I wan't you to open your mind to what's about to come.
 
--- open your mind pls --
+Multiplayer isn't just a mode you join and play by yourself. It's a mode you reach.
 
-mutiplayer *ONLY* works with unity
-
-- team work is dream work
-- a human can climb a mountain, but a team of them can go to heaven
-
-you get the point
+The main ingredient for multiplayer is unity. Just like the name says "multi player", meaning multiple players, or in this case people. Because multiplayer is about experience with your friends and family and the people *you* love.
 
 **multiplayer isn't about living alone, it is about experiencing moments and having fun with the people you love**
 

@@ -23,8 +23,8 @@ title = "zion8992's website"
     weight = 2
 
   [[menu.main]]
-    name   = "Cubyz Newsletter"
-    pageRef    = "/cz-news"
+    name   = "Cubyz Blog"
+    url = "http://zion8992.github.io/cubyz-blog"
     weight = 2
     
 [markup.goldmark.renderer]
