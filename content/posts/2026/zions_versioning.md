@@ -2,7 +2,7 @@
 date = '2026-07-16T22:39:25+01:00'
 draft = false
 title = "Zion's Versioning"
-tags = ["versions"]
+tags = ["dev"]
 +++
 
 ## Introduction
