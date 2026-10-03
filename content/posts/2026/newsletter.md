@@ -2,7 +2,7 @@
 date = '2026-08-21T17:58:00+01:00'
 draft = false
 title = 'Starting a Newsletter'
-tags = ["golang"]
+tags = ["news"]
 +++
 
 I have way too many projects to be doing this, but I decided to start a Newsletter.  

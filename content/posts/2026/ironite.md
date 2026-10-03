@@ -2,7 +2,7 @@
 date = '2026-07-16T10:03:00+01:00'
 draft = false
 title = 'Ironite'
-tags = ["golang"]
+tags = ["dev", "golang"]
 +++
 
 In January of 2026, `Cubyz 0.0.0` got released. Ever since a lot has happened, more specifically Ironite.
