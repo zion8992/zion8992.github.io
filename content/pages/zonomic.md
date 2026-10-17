@@ -2,13 +2,10 @@
 title: "Zonomic"
 ---
 
-## What is Zonomic?
+### What is Zonomic?
 
-Founded by zion8992 in 2026, Zonomic is a group of developers (currently with 1 developers) that aims to build software to change the world.
+Zonomic is a *no-profit*[^1] organization of software engineers founded by zion8992 in 2026.
 
-## Apply to join
+Further information will be posted here soon.
 
-Well, there are a few requirements to join Zonomic:
-1. Have a [Matrix](https://matrix.org/) account.
-2. Know [Golang](https://go.dev)
-3. Submit an application (link to be added soon)
+[^1]: We don't make profit or ask for donations

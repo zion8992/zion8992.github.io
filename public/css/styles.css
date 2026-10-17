@@ -1,0 +1,117 @@
+/* @import these at the very top of your CSS file, before any rules */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+/* Fonts available at: https://fonts.google.com/specimen/Archivo+Black
+                        https://fonts.google.com/specimen/Space+Grotesk */
+
+:root {
+  /* --- Fonts --- */
+  --font-display: "Archivo Black", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+
+  /* --- Base surfaces --- */
+  --color-bg: hsl(231 15 18);        
+  --color-surface: hsl(225 27 51);
+  --color-ink: hsl(60 0% 87%);
+  --color-ink-faded: hsl(60 0% 80%);
+
+    /* --- Bold accents --- */
+    --red: hsl(0 100 67);
+    --orange: hsl(31 100 71);
+
+  /* --- Borders --- */
+  --border-width: 3px;
+  --border-color: var(--color-ink);
+  --radius: 5px;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg);
+    color: var(--color-ink);
+    margin-bottom: 300px;
+}
+
+/** SITE NAVIGATION **/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-surface);
+    height: 60px;
+
+    /* margins */
+    border-radius: 0px;
+    border-bottom: var(--border-width) solid var(--border-color);
+}
+
+.site-title { /* site title */
+    margin-left: 200px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--ink);
+}
+
+nav { /* menu list */
+    margin-right: 400px;
+}
+
+nav ul {
+    display: flex;
+    margin-right: auto;
+}  
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 50px;
+    transition-duration: 300ms;
+}
+
+nav ul li a:hover {
+    color: var(--orange);
+}
+
+/* FOOTER */
+footer {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    font-size: 13px;
+    color: var(--three);
+    font-style: italic;
+}
+
+/* TRANSITION */
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation-duration: 0.25s; /* snappier fade, fits the brutalist "punchy" feel */
+}
+
+/* HTML ELEMENTS */
+
+a {
+    color: var(--red);
+}
+
+code {
+    background-color: var(--color-bg);
+    border-radius: 3px;
+    font-family: "Courier New", monospace;
+    padding: 0 3px;
+    color: var(--color-ink-faded);
+}
+
+tr, td {
+    border: 1px solid var(--color-ink);
+}

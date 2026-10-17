@@ -1,11 +1,14 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
 title = "zion8992's website"
+theme = 'hugo-theme-terminal'
 
 [params]
   copyright-year = '2026'
   subtitle = 'subtitle'
   description = "title"
+  centerTheme = true
+  fullWidthTheme = false
   [params.author]
     email = 'private@email.address'
     name = 'zion8992'
