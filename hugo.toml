@@ -9,6 +9,8 @@ theme = 'hugo-theme-terminal'
   description = "title"
   centerTheme = true
   fullWidthTheme = false
+  [params.logo]
+    logoText = "zion8992"
   [params.author]
     email = 'private@email.address'
     name = 'zion8992'
